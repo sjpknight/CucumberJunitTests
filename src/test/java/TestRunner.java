@@ -6,7 +6,7 @@ import cucumber.api.junit.Cucumber;
 @RunWith(Cucumber.class)
 @CucumberOptions(
         features = "classpath:features",
-        plugin = {"pretty", "html:target/cucumber-html-report"},
+        format = {"pretty", "json:target/cucumber-JSON-report/CucumberTestReport.json"},
         tags = {},
         glue = "stepdefs"
 )

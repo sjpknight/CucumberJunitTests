@@ -1,5 +1,9 @@
 Feature: simple tests
 
+  as an automation developer
+  I want to express my tests as features and scenarios
+  so that I can carry out BDD style development
+
   Scenario: simple scenario test
     Given a start state
     When the state is changed

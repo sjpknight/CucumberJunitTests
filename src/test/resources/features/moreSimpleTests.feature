@@ -18,7 +18,7 @@ Feature: more simple tests
 
   Scenario Outline: another scenario with multiple examples
     Given a start state
-    When I do a thing with "parameter"
+    When I do a thing with "<parameter>"
     Then I see expected result
 
   Examples:

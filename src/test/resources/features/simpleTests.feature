@@ -13,12 +13,14 @@ Feature: simple tests
     Given a start state with
     |table|
     |stuff|
+    And some other things going on
     When I do stuff
     Then I see result
 
+
   Scenario Outline: a scenario with multiple examples
     Given a start state
-    When I do a thing with "parameter"
+    When I do a thing with "<parameter>"
     Then I see expected result
 
   Examples:

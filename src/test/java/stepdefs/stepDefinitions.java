@@ -21,7 +21,7 @@ public class stepDefinitions {
 
     @Then("^I see the state has changed$")
     public void i_see_the_state_has_changed() throws Throwable {
-
+        throw new PendingException();
     }
 
     @Given("^a start state with$")
@@ -49,6 +49,7 @@ public class stepDefinitions {
 
     @Then("^I see expected result$")
     public void i_see_expected_result() throws Throwable {
+        assert(false);
 
     }
 

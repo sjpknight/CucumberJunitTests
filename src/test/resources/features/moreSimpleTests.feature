@@ -27,4 +27,15 @@ Feature: more simple tests
     |2        |
     |3        |
 
+  Scenario Outline: another scenario with multiple examples
+    Given a start state
+    When I do a thing with "<parameter>"
+    Then I see I am on page "<page>"
+    Then I see I am in section "<section>"
+    Then I see expected result "<result>"
 
+    Examples:
+      |parameter|page|section|result|
+      |1        |p1  |s1     |r1    |
+      |2        |p2  |s2     |r2    |
+      |3        |p3  |s3     |r3    |

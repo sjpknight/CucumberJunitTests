@@ -53,7 +53,24 @@ public class stepDefinitions {
 
     }
 
+    @Then("^I see I am on page \"(.*?)\"$")
+    public void i_see_I_am_on_page(String arg1) throws Throwable {
 
+    }
 
+    @Then("^I see I am in section \"(.*?)\"$")
+    public void i_see_I_am_in_section(String arg1) throws Throwable {
+
+    }
+
+    @Then("^I see expected result \"(.*?)\"$")
+    public void i_see_expected_result(String arg1) throws Throwable {
+
+    }
+
+    @Given("^some other things going on$")
+    public void some_other_things_going_on() throws Throwable {
+
+    }
 
 }
